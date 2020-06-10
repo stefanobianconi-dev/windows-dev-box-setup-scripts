@@ -18,7 +18,6 @@ function removeApp {
 $applicationList = @(
 	"Microsoft.BingFinance"
 	"Microsoft.3DBuilder"
-	"Microsoft.BingFinance"
 	"Microsoft.BingNews"
 	"Microsoft.BingSports"
 	"Microsoft.BingWeather"
@@ -59,11 +58,7 @@ $applicationList = @(
 	"*.AdobePhotoshopExpress"
 
     # default Windows 10 apps
-    "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
-    "Microsoft.BingFinance"
-    "Microsoft.BingNews"
-    "Microsoft.BingSports"
     "Microsoft.BingTranslator"
     "Microsoft.BingWeather"
     "Microsoft.FreshPaint"
@@ -110,7 +105,6 @@ $applicationList = @(
     "Microsoft.WindowsFeedbackHub"
 
     # Creators Update apps
-    "Microsoft.Microsoft3DViewer"
     "Microsoft.MSPaint"
 
     #Redstone apps
@@ -122,8 +116,6 @@ $applicationList = @(
     # Redstone 5 apps
     "Microsoft.MixedReality.Portal"
     "Microsoft.ScreenSketch"
-    "Microsoft.XboxGamingOverlay"
-    "Microsoft.YourPhone"
 
     # non-Microsoft
     "2FE3CB00.PicsArt-PhotoStudio"
@@ -142,7 +134,6 @@ $applicationList = @(
     "D52A8D61.FarmVille2CountryEscape"
     "D5EA27B7.Duolingo-LearnLanguagesforFree"
     "DB6EA5DB.CyberLinkMediaSuiteEssentials"
-    "DolbyLaboratories.DolbyAccess"
     "DolbyLaboratories.DolbyAccess"
     "Drawboard.DrawboardPDF"
     "Facebook.Facebook"

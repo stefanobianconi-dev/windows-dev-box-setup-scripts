@@ -37,7 +37,7 @@ executeScript "DisableServices.ps1"
 # visualstudio2017professional
 # visualstudio2017enterprise
 
-#choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
+# choco install -y visualstudio2017community --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
 Update-SessionEnvironment #refreshing env due to Git install
 
 #--- UWP Workload and installing Windows Template Studio ---
@@ -47,4 +47,4 @@ Update-SessionEnvironment #refreshing env due to Git install
 #--- reenabling critial items ---
 Enable-UAC
 Enable-MicrosoftUpdate
-Install-WindowsUpdate -acceptEula
+# Install-WindowsUpdate -acceptEula
