@@ -46,6 +46,7 @@ To run a recipe script, click a link in the table below from your target machine
 |     | Xamarin (Visual Studio, Xamarin, Android SDK) |
 |     | Containers (Docker, Kubernetes, etc...)        |
 |     | Submit a PR with a recommended configuration!        |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/stefanobianconi-dev/windows-dev-box-setup-scripts/master/dev_app_embedded.ps1'>Embedded Development</a>| Embedded cross-platform app      |
 
 **Notes:**  
 1. If you are using WSL there's a followup step we recommend after running the setup script.  When the script finishes you will only have a root user with a blank password. You should  manually create a non-root user via `$ sudo adduser [USERNAME] sudo` 
