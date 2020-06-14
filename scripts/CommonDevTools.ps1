@@ -18,3 +18,4 @@ choco install -y putty.install
 choco install -y curl
 choco install -y mobaxterm
 choco install -y windirstat
+choco install -y oldcalc
